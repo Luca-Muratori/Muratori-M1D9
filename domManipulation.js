@@ -22,3 +22,11 @@ window.onload = function() {
     
     createNumbers()
 }
+
+//create a button that randomize a number from 1 to 76
+
+const generateRandomNumber= function(){
+    const randomNumber= Math.floor(Math.random()*77)
+    let randomNumberNode=document.getElementById('random-number')
+    randomNumberNode.textContent=randomNumber
+}
