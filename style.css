@@ -49,3 +49,8 @@ h1 {
     font-size: 30px;
     color: black;
 }
+
+.selected {
+    border-color: gray;
+    background-color: #474747;
+}
