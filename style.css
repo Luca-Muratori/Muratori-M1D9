@@ -13,7 +13,7 @@
 }
 
 .number {
-    background-color: rgb(110, 9, 9);
+    background-color: rgb(167, 45, 45);
     display: inline-block;
     width: 12.5%;
     min-height: 64px;
@@ -40,7 +40,12 @@ h1 {
     text-align: center;
     font-size: 40px;
     margin-top: 20px;
-    color: #afac0a;
+    color: #af2b0a;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+#random-number{
+    font-size: 30px;
+    color: black;
 }

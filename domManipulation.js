@@ -1,8 +1,8 @@
-let bingoData={ }
 
 
 
-//create the number
+
+//create the numbers
 const createNumbers =function(){
     let numberContainerNode= document.querySelector('#number-container')
     let totalNumbers= 76
@@ -24,7 +24,6 @@ window.onload = function() {
 }
 
 //create a button that randomize a number from 1 to 76
-
 const generateRandomNumber= function(){
     const randomNumber= Math.floor(Math.random()*77)
     let randomNumberNode=document.getElementById('random-number')
