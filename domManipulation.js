@@ -1,10 +1,8 @@
 let bingoData={ }
 
-window.onload = function() {
-    readDataFromDisk()
-    createNumbers()
-}
 
+
+//create the number
 const createNumbers =function(){
     let numberContainerNode= document.querySelector('#number-container')
     let totalNumbers= 76
@@ -15,6 +13,12 @@ const createNumbers =function(){
         newNumberNode.innerText=BingoNumber
         //we add a class in every div
         newNumberNode.classList.add('number')
-        newNumberNode.onclick=selectNumber
+        numberContainerNode.appendChild(newNumberNode)
     }
+
+}
+
+window.onload = function() {
+    
+    createNumbers()
 }
