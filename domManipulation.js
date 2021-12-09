@@ -38,12 +38,12 @@ const generateRandomNumber= function(){
 
 //create a function that highlight the number generate from the random number generator
 
-const getCurrentlySelectedDay = function() {
+const getCurrentlySelectedNumber = function() {
     return document.querySelector(".selected")
 }
 
 const selectNumber= function(e){
-    const currentlyNumberSelected=getCurrentlySelectedDay()
+    const currentlyNumberSelected=getCurrentlySelectedNumber()
     if(currentlyNumberSelected!==null){
         currentlyNumberSelected.classList.remove('selected')
     }
